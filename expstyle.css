@@ -1,0 +1,103 @@
+/* General Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  header nav {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Explore Section */
+  .explore {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .explore h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .explore p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .categories  {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+
+  .category-card, .article-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .category-card img, .article-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .btn:hover {
+    background-color: #444;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
